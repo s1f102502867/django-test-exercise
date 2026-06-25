@@ -53,6 +53,7 @@ class TaskModelTestCase(TestCase):
 
         self.assertFalse(task.is_overdue(current))
 
+
 class TodoViewTestCase(TestCase):
     def test_index(self):
         client = Client()
